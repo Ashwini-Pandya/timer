@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddd6fe;
+}
+
+.main {
+  margin-top: 15rem;
+}
+
+input {
+  border: none;
+  border: 1.5px solid black;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.start-btn {
+  display: block;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  width: 4rem;
+  padding: 0.4rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.timer h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  position: center;
+}
+
+.timer {
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  width: 16rem;
+  margin-top: 3rem;
+  text-align: center;
+  margin-left: -18rem;
+  height: 2rem;
+  padding-bottom: 1rem;
+  padding-top: -1rem;
+}
