@@ -61,3 +61,29 @@ button {
   text-align: center;
   margin-top: 23rem;
 }
+
+@media only screen and (max-width: 500px) {
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .put-value {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+  .container {
+    display: block;
+  }
+  .start-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .timer {
+    display: flex;
+    justify-content: center;
+  }
+}
